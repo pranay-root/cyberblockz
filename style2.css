@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url("my.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Set header position to relative */
+}
+
+header img {
+    width: 100px; /* Adjust the width of the logo as needed */
+    margin-bottom: 1rem;
+    position: absolute; /* Set logo position to absolute */
+    top: 10px; /* Adjust the top value to position the logo vertically */
+    left: 10px; /* Adjust the left value to position the logo horizontally */
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(184, 209, 234, 0.8); /* Add a semi-transparent background to the video links container */
+    padding: 2rem;
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the container */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, button {
+    margin: 0.5rem 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+header {
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+main {
+    margin-top: 80px; /* Adjust the top margin to create space for the header */
+}
+
+/* Add a border around the video links */
+ul#videoList {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Add some space between each video link */
+li a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px; /* Add padding to create the button effect */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Other existing CSS styles go here */
+.Videos-link-option {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+  }
+  
+.Videos-link-option a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Blue background color */
+    padding: 15px 60px;
+    border: 1px solid #0a9df2;
+    border-radius: 5px;
+  }
